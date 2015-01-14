@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+Copyright (C) 2015 Nisheeth Shah
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+-->
+<html>
+    <head>
+        <title>Add Modules</title>
+        <script src="scripts/plugin/jquery.min.js"></script>
+        <script src="javascripts/plugin/jquery-ui.min.js"></script>
+        <script src="javascripts/commonfunctions.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td><label>Module Name:</label></td>
+                <td><input type="text" name="moduleName" id="moduleName"></td>
+            </tr>
+            <tr>
+                <td><label>Module Abbreviation:</label></td>
+                <td><input type="text" name="moduleAbbr" id="moduleAbbr"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right"><button id="addModule">Add</button></td>
+            </tr>
+        </table>
+    </body>
+</html>
